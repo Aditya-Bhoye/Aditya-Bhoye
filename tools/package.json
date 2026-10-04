@@ -1,0 +1,12 @@
+{
+  "name": "profile-tools",
+  "private": true,
+  "description": "Records the Hairline figures in the profile README as looping GIFs.",
+  "type": "module",
+  "scripts": {
+    "capture": "node capture-hairline.mjs"
+  },
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
