@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Aditya Bhoye. Founder of Veron. Full-stack and machine learning engineer.">
+<defs>
+  <radialGradient id="glow" cx="50%" cy="65.78947368421053%" r="55%">
+    <stop offset="0" stop-color="#ff5722" stop-opacity=".55"/>
+    <stop offset=".35" stop-color="#d4141a" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="fade" x1="0" y1="250" x2="0" y2="380" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".25" stop-color="#fff" stop-opacity=".7"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+  </linearGradient>
+  <mask id="floorMask"><rect x="0" y="250" width="1200" height="130" fill="url(#fade)"/></mask>
+  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/>
+    <stop offset=".55" stop-color="#ffd6c9"/>
+    <stop offset="1" stop-color="#ff8a65"/>
+  </linearGradient>
+  <!-- The sweep: a bright band that slides across the name every few seconds. -->
+  <linearGradient id="sweep" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".45" stop-color="#fff" stop-opacity="0"/>
+    <stop offset=".5" stop-color="#fff" stop-opacity=".95"/>
+    <stop offset=".55" stop-color="#fff" stop-opacity="0"/>
+    <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1200 0;-1200 0;1200 0;1200 0" keyTimes="0;.55;.85;1" dur="6s" begin="1.6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <clipPath id="card"><rect width="1200" height="380" rx="18"/></clipPath>
+</defs>
+<style>
+text{font-family:"Segoe UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
+.glow{transform-origin:600px 250px;animation:pulse 5s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+.floor line{stroke:#ff5722;stroke-width:1.1;opacity:.55}
+.x{animation:flow 3.6s cubic-bezier(.55,0,1,.45) infinite}
+@keyframes flow{from{transform:translateY(0);opacity:0}15%{opacity:.7}to{transform:translateY(130px);opacity:.9}}
+.sparks circle{fill:#ffb199;animation:twinkle 3s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.1}50%{opacity:.9}}
+.horizon{animation:beam 5s ease-in-out infinite}
+@keyframes beam{0%,100%{opacity:.6}50%{opacity:1}}
+.name{opacity:0;animation:rise 1.1s cubic-bezier(.2,.8,.2,1) .2s forwards}
+.tag{opacity:0;animation:rise 1s cubic-bezier(.2,.8,.2,1) .8s forwards}
+@keyframes rise{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+.rule{transform-origin:600px 0;transform:scaleX(0);animation:draw 1s cubic-bezier(.2,.8,.2,1) 1.1s forwards}
+@keyframes draw{to{transform:scaleX(1)}}
+@media (prefers-reduced-motion:reduce){.glow,.x,.sparks circle,.horizon{animation:none}.name,.tag{animation:none;opacity:1}.rule{animation:none;transform:none}}
+</style>
+<g clip-path="url(#card)">
+  <rect width="1200" height="380" fill="#0d1117"/>
+  <rect class="glow" width="1200" height="380" fill="url(#glow)"/>
+  <g class="sparks"><circle cx="0.1" cy="211.4" r="1" style="animation-delay:-0.8s;animation-duration:4.7s"/><circle cx="639.3" cy="87.2" r="1.7" style="animation-delay:-3s;animation-duration:4.1s"/><circle cx="821.4" cy="151.5" r="1.7" style="animation-delay:-1s;animation-duration:3.6s"/><circle cx="849.5" cy="164.6" r="0.7" style="animation-delay:-2.7s;animation-duration:3.9s"/><circle cx="1106.9" cy="187.6" r="0.8" style="animation-delay:-2.1s;animation-duration:5.3s"/><circle cx="826.2" cy="153.2" r="1.4" style="animation-delay:-3.6s;animation-duration:5.2s"/><circle cx="446.7" cy="88.4" r="1.8" style="animation-delay:-1.3s;animation-duration:3s"/><circle cx="357.2" cy="108" r="1" style="animation-delay:-3.7s;animation-duration:4.2s"/><circle cx="875.1" cy="202.3" r="0.7" style="animation-delay:-1.1s;animation-duration:4.2s"/><circle cx="610.6" cy="106.5" r="0.9" style="animation-delay:-3.6s;animation-duration:2.7s"/><circle cx="438.6" cy="90.3" r="1.5" style="animation-delay:-3.7s;animation-duration:4s"/><circle cx="198.7" cy="103.2" r="1" style="animation-delay:-1.5s;animation-duration:3.8s"/><circle cx="399.1" cy="129.6" r="1.5" style="animation-delay:-0.9s;animation-duration:5.2s"/><circle cx="549.4" cy="199.2" r="1.5" style="animation-delay:-2.5s;animation-duration:4s"/><circle cx="605.9" cy="162.7" r="1.9" style="animation-delay:-1.6s;animation-duration:4.6s"/><circle cx="301.3" cy="141.2" r="1.1" style="animation-delay:-1.3s;animation-duration:3.7s"/><circle cx="953.7" cy="202.3" r="0.8" style="animation-delay:-3.3s;animation-duration:2.7s"/><circle cx="488.2" cy="50.3" r="0.7" style="animation-delay:-4s;animation-duration:3.2s"/><circle cx="758.8" cy="48.3" r="1.2" style="animation-delay:-2.4s;animation-duration:2.9s"/><circle cx="1106.2" cy="203.8" r="1.8" style="animation-delay:-3.5s;animation-duration:5.2s"/><circle cx="913.4" cy="75.8" r="0.6" style="animation-delay:-1s;animation-duration:2.7s"/><circle cx="1.9" cy="147.5" r="0.9" style="animation-delay:-3s;animation-duration:4s"/><circle cx="825" cy="68" r="1.8" style="animation-delay:-0.9s;animation-duration:3.6s"/><circle cx="1073.1" cy="42.9" r="1.3" style="animation-delay:0s;animation-duration:5.2s"/><circle cx="764.3" cy="211.6" r="0.6" style="animation-delay:-3.6s;animation-duration:3.1s"/><circle cx="1162.5" cy="136.7" r="1.6" style="animation-delay:-1.1s;animation-duration:3.2s"/><circle cx="250.7" cy="136.5" r="0.7" style="animation-delay:-3.1s;animation-duration:4.6s"/><circle cx="856.9" cy="122.6" r="0.6" style="animation-delay:-0.4s;animation-duration:5.3s"/><circle cx="156.9" cy="162.5" r="1.9" style="animation-delay:-0.1s;animation-duration:5.1s"/><circle cx="1033.6" cy="226.5" r="1.9" style="animation-delay:-3.1s;animation-duration:3.8s"/><circle cx="297.9" cy="170.8" r="1.8" style="animation-delay:-1.6s;animation-duration:3.2s"/><circle cx="485.9" cy="204.3" r="1.4" style="animation-delay:-1.4s;animation-duration:4.4s"/><circle cx="881.9" cy="88.4" r="1.6" style="animation-delay:-1.7s;animation-duration:3.1s"/><circle cx="374.1" cy="225" r="2" style="animation-delay:-2.5s;animation-duration:5.1s"/><circle cx="1102" cy="59.9" r="1.5" style="animation-delay:-0.5s;animation-duration:4s"/><circle cx="668.8" cy="180" r="1.9" style="animation-delay:-1.9s;animation-duration:3.1s"/><circle cx="536" cy="52.9" r="1.5" style="animation-delay:-2.1s;animation-duration:4.2s"/><circle cx="608.1" cy="177" r="1.1" style="animation-delay:-3s;animation-duration:2.6s"/><circle cx="358.6" cy="131.8" r="0.9" style="animation-delay:-2.9s;animation-duration:3.4s"/><circle cx="282.9" cy="156.5" r="1.2" style="animation-delay:-0.3s;animation-duration:4.8s"/><circle cx="987.4" cy="210.2" r="1.9" style="animation-delay:-2.7s;animation-duration:5.4s"/><circle cx="30.3" cy="178" r="1.4" style="animation-delay:-2.9s;animation-duration:5.2s"/><circle cx="44.4" cy="46.6" r="0.7" style="animation-delay:-0.4s;animation-duration:2.8s"/><circle cx="11.4" cy="145.1" r="1.9" style="animation-delay:-0.8s;animation-duration:2.9s"/><circle cx="242.7" cy="159.7" r="0.9" style="animation-delay:-1.8s;animation-duration:5.5s"/><circle cx="507.1" cy="159.5" r="1.7" style="animation-delay:-1.6s;animation-duration:3.7s"/></g>
+  <g class="floor" mask="url(#floorMask)"><line x1="600" y1="250" x2="-1680" y2="380"/><line x1="600" y1="250" x2="-1585" y2="380"/><line x1="600" y1="250" x2="-1490" y2="380"/><line x1="600" y1="250" x2="-1395" y2="380"/><line x1="600" y1="250" x2="-1300" y2="380"/><line x1="600" y1="250" x2="-1205" y2="380"/><line x1="600" y1="250" x2="-1110" y2="380"/><line x1="600" y1="250" x2="-1015" y2="380"/><line x1="600" y1="250" x2="-920" y2="380"/><line x1="600" y1="250" x2="-825" y2="380"/><line x1="600" y1="250" x2="-730" y2="380"/><line x1="600" y1="250" x2="-635" y2="380"/><line x1="600" y1="250" x2="-540" y2="380"/><line x1="600" y1="250" x2="-445" y2="380"/><line x1="600" y1="250" x2="-350" y2="380"/><line x1="600" y1="250" x2="-255" y2="380"/><line x1="600" y1="250" x2="-160" y2="380"/><line x1="600" y1="250" x2="-65" y2="380"/><line x1="600" y1="250" x2="30" y2="380"/><line x1="600" y1="250" x2="125" y2="380"/><line x1="600" y1="250" x2="220" y2="380"/><line x1="600" y1="250" x2="315" y2="380"/><line x1="600" y1="250" x2="410" y2="380"/><line x1="600" y1="250" x2="505" y2="380"/><line x1="600" y1="250" x2="600" y2="380"/><line x1="600" y1="250" x2="695" y2="380"/><line x1="600" y1="250" x2="790" y2="380"/><line x1="600" y1="250" x2="885" y2="380"/><line x1="600" y1="250" x2="980" y2="380"/><line x1="600" y1="250" x2="1075" y2="380"/><line x1="600" y1="250" x2="1170" y2="380"/><line x1="600" y1="250" x2="1265" y2="380"/><line x1="600" y1="250" x2="1360" y2="380"/><line x1="600" y1="250" x2="1455" y2="380"/><line x1="600" y1="250" x2="1550" y2="380"/><line x1="600" y1="250" x2="1645" y2="380"/><line x1="600" y1="250" x2="1740" y2="380"/><line x1="600" y1="250" x2="1835" y2="380"/><line x1="600" y1="250" x2="1930" y2="380"/><line x1="600" y1="250" x2="2025" y2="380"/><line x1="600" y1="250" x2="2120" y2="380"/><line x1="600" y1="250" x2="2215" y2="380"/><line x1="600" y1="250" x2="2310" y2="380"/><line x1="600" y1="250" x2="2405" y2="380"/><line x1="600" y1="250" x2="2500" y2="380"/><line x1="600" y1="250" x2="2595" y2="380"/><line x1="600" y1="250" x2="2690" y2="380"/><line x1="600" y1="250" x2="2785" y2="380"/><line x1="600" y1="250" x2="2880" y2="380"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:0s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-0.4s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-0.8s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-1.2s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-1.6s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-2s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-2.4s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-2.8s"/><line class="x" x1="0" x2="1200" y1="250" y2="250" style="animation-delay:-3.2s"/></g>
+  <line class="horizon" x1="0" x2="1200" y1="250" y2="250" stroke="#ff8a65" stroke-width="1.5"/>
+  <g class="name">
+    <text x="600" y="150" text-anchor="middle" font-size="96" font-weight="800" letter-spacing="6" fill="url(#ink)">ADITYA BHOYE</text>
+    <text x="600" y="150" text-anchor="middle" font-size="96" font-weight="800" letter-spacing="6" fill="url(#sweep)">ADITYA BHOYE</text>
+  </g>
+  <rect class="rule" x="450" y="176" width="300" height="2" fill="#ff5722"/>
+  <text class="tag" x="600" y="212" text-anchor="middle" font-size="19" font-weight="600" letter-spacing="5" fill="#e6edf3">FOUNDER OF VERON  ·  FULL-STACK &amp; ML ENGINEER</text>
+</g>
+<rect x=".75" y=".75" width="1198.5" height="378.5" rx="17.5" fill="none" stroke="#ff5722" stroke-opacity=".35" stroke-width="1.5"/>
+</svg>

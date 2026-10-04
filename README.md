@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&height=150&color=0:8B0A0A,55:D4141A,100:FF5722&text=Aditya%20Bhoye&fontColor=ffffff&fontSize=54&fontAlignY=50&animation=fadeIn" width="100%" alt="Aditya Bhoye" />
+<img src="assets/hero.svg" width="100%" alt="Aditya Bhoye. Founder of Veron. Full-stack and machine learning engineer." />
 
 <a href="https://github.com/Aditya-Bhoye"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1400&color=FF5722&center=true&vCenter=true&width=720&lines=Founder+of+Veron%2C+a+billing+app+for+bars;Full-stack+engineer%3A+app%2C+server%2C+database;Machine+learning+engineer%3A+PyTorch%2C+scikit-learn" alt="Founder of Veron, a billing app for bars Full-stack engineer: app, server, database Machine learning engineer: PyTorch, scikit-learn" /></a>
 
@@ -133,7 +133,13 @@ It does billing, inventory, staff roles and customer credit (udhaar).
     </td>
   </tr>
   <tr>
-    <td valign="top" colspan="2">
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/Pranav-Harad/smartcharity">SmartCharity</a></h3>
+      <p>A donation platform stamps each donation with a SHA-256 audit hash. Gemini writes the impact stories.</p>
+      <p><code>React</code> <code>Tailwind</code> <code>Spring Boot</code> <code>MongoDB</code> <code>JWT</code> <code>Docker</code></p>
+      <a href="https://smartcharity.vercel.app">Live</a> · <a href="https://github.com/Pranav-Harad/smartcharity">Repository</a> · <sub>Team project with Pranav Harad</sub>
+    </td>
+    <td valign="top" width="50%">
       <h3><a href="https://github.com/Aditya-Bhoye/Library-Management-System-Java">Library Management System</a></h3>
       <p>A console app issues books and saves records with serialization.</p>
       <p><code>Java</code> <code>Maven</code></p>
