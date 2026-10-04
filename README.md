@@ -2,8 +2,6 @@
 
 <img src="assets/hero.svg" width="100%" alt="Aditya Bhoye. Founder of Veron. Full-stack and machine learning engineer." />
 
-<a href="https://github.com/Aditya-Bhoye"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1400&color=FF5722&center=true&vCenter=true&width=720&lines=Founder+of+Veron%2C+a+billing+app+for+bars;Full-stack+engineer%3A+app%2C+server%2C+database;Machine+learning+engineer%3A+PyTorch%2C+scikit-learn" alt="Founder of Veron, a billing app for bars Full-stack engineer: app, server, database Machine learning engineer: PyTorch, scikit-learn" /></a>
-
 [LinkedIn](https://linkedin.com/in/aditya-bhoye-908597357) &nbsp;·&nbsp; [adibhoye@gmail.com](mailto:adibhoye@gmail.com) &nbsp;·&nbsp; [GitHub](https://github.com/Aditya-Bhoye)
 
 </div>
@@ -15,7 +13,14 @@
     <td valign="middle" width="60%">
       <p>I build Flutter apps, full-stack web apps and machine learning models.</p>
       <p>I study B.E. Information Technology at PCCOE Pune and graduate in 2027.</p>
-      <p>I founded Veron, a point-of-sale system that runs in a bar in Pune.</p>
+      <p><b>What I work on</b></p>
+      <ul>
+        <li>Flutter apps for desktop and phone.</li>
+        <li>Backends on Supabase and PostgreSQL.</li>
+        <li>Computer vision in PyTorch: image classification and image segmentation.</li>
+        <li>Flask APIs that serve trained models to web apps.</li>
+        <li>Builds and releases with Docker and GitHub Actions.</li>
+      </ul>
     </td>
     <td align="center" width="40%">
       <picture>
@@ -126,20 +131,28 @@ It does billing, inventory, staff roles and customer credit (udhaar).
       <a href="https://github.com/Aditya-Bhoye/Pulmoscan">Repository</a>
     </td>
     <td valign="top" width="50%">
+      <h3><a href="https://github.com/Aditya-Bhoye/Bridge-Corrosion-Detection">Bridge Corrosion Detection</a></h3>
+      <p>A U-Net model marks corrosion pixels in bridge photos. It trains on 800 labelled images.</p>
+      <p><code>Python</code> <code>PyTorch</code> <code>OpenCV</code> <code>U-Net</code> <code>Google Colab</code></p>
+      <a href="https://github.com/Aditya-Bhoye/Bridge-Corrosion-Detection">Repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
       <h3><a href="https://github.com/Aditya-Bhoye/Flox">Flox</a></h3>
       <p>A mobile app splits group expenses and predicts loan approval.</p>
       <p><code>Flutter</code> <code>Dart</code> <code>Supabase</code> <code>Python</code> <code>scikit-learn</code> <code>FastAPI</code></p>
       <a href="https://github.com/Aditya-Bhoye/Flox">Repository</a>
     </td>
-  </tr>
-  <tr>
     <td valign="top" width="50%">
       <h3><a href="https://github.com/Pranav-Harad/smartcharity">SmartCharity</a></h3>
       <p>A donation platform stamps each donation with a SHA-256 audit hash. Gemini writes the impact stories.</p>
       <p><code>React</code> <code>Tailwind</code> <code>Spring Boot</code> <code>MongoDB</code> <code>JWT</code> <code>Docker</code></p>
       <a href="https://smartcharity.vercel.app">Live</a> · <a href="https://github.com/Pranav-Harad/smartcharity">Repository</a> · <sub>Team project with Pranav Harad</sub>
     </td>
-    <td valign="top" width="50%">
+  </tr>
+  <tr>
+    <td valign="top" colspan="2">
       <h3><a href="https://github.com/Aditya-Bhoye/Library-Management-System-Java">Library Management System</a></h3>
       <p>A console app issues books and saves records with serialization.</p>
       <p><code>Java</code> <code>Maven</code></p>
