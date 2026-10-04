@@ -33,12 +33,16 @@
 
 ## Featured: Veron
 
-Veron is a point-of-sale and business management system for bars.
-It operates in production in a bar in Pune.
-Veron has a desktop till app and a phone app.
-It does billing, inventory, staff roles and customer credit (udhaar).
-
 <table>
+  <tr>
+    <td colspan="2">
+      <img src="assets/veron-logo.png" width="72" height="72" align="left" alt="Veron logo" />
+      <h3>Veron</h3>
+      <p>A point-of-sale and business management system for bars. It runs in production in a bar in Pune.</p>
+      <br clear="left" />
+      <p>Veron has a desktop till app and a phone app. It does billing, inventory, staff roles and customer credit (udhaar).</p>
+    </td>
+  </tr>
   <tr>
     <td align="center" width="50%">
       <picture>
@@ -55,14 +59,14 @@ It does billing, inventory, staff roles and customer credit (udhaar).
       <br /><b>Phone app</b>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <p><code>Flutter</code> <code>Dart</code> <code>Supabase</code> <code>PostgreSQL</code></p>
+      <a href="https://aditya-bhoye.github.io/Veron/"><img src="https://img.shields.io/badge/Website-Open-FF5722?style=for-the-badge" alt="Veron website" /></a>
+      <a href="https://github.com/Aditya-Bhoye/Veron"><img src="https://img.shields.io/badge/Repository-View-D4141A?style=for-the-badge&logo=github&logoColor=white" alt="Veron repository" /></a>
+    </td>
+  </tr>
 </table>
-
-**Stack:** Flutter · Dart · Supabase · PostgreSQL
-
-<p align="center">
-  <a href="https://aditya-bhoye.github.io/Veron/"><img src="https://img.shields.io/badge/Website-Open-FF5722?style=for-the-badge" alt="Veron website" /></a>
-  <a href="https://github.com/Aditya-Bhoye/Veron"><img src="https://img.shields.io/badge/Repository-View-D4141A?style=for-the-badge&logo=github&logoColor=white" alt="Veron repository" /></a>
-</p>
 
 ## Tech stack
 
