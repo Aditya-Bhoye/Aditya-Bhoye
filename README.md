@@ -12,7 +12,6 @@
   <tr>
     <td valign="middle" width="60%">
       <p>I build Flutter apps, full-stack web apps and machine learning models.</p>
-      
       <p><b>What I work on</b></p>
       <ul>
         <li>Flutter apps for desktop and phone.</li>
