@@ -12,7 +12,7 @@
   <tr>
     <td valign="middle" width="60%">
       <p>I build Flutter apps, full-stack web apps and machine learning models.</p>
-      <p>I study B.E. Information Technology at PCCOE Pune and graduate in 2027.</p>
+      
       <p><b>What I work on</b></p>
       <ul>
         <li>Flutter apps for desktop and phone.</li>
